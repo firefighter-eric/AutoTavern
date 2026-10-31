@@ -1,0 +1,13 @@
+{
+  "backend": "wandb",
+  "kind": "native",
+  "mode": "online",
+  "entity": "eric_eric_",
+  "project": "AutoTavern",
+  "run_id": "tgv920ha",
+  "url": "https://forge.coreweave.com/wandb/eric_eric_/AutoTavern/runs/tgv920ha",
+  "x_axis": "optimizer_step",
+  "weave_project": "eric_eric_/AutoTavern",
+  "weave_initialized": false,
+  "weave_error": "TransportConnectionFailed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"
+}
