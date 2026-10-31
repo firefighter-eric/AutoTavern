@@ -5,7 +5,13 @@
 
 在线指标：[W&B tgv920ha](https://forge.coreweave.com/wandb/eric_eric_/AutoTavern/runs/tgv920ha)。
 实时状态见本地 `progress.json` 和 `experiment.json`；提交中的运行指标只是提交时的快照。
-W&B 在线 train／val 标量已开启；Weave 初始化发生 TLS 错误，未影响 W&B 标量采集。
+W&B 在线 train／val 标量已开启；初次启动的 Weave TLS 错误未影响 W&B 标量采集，
+恢复训练时 Weave 已成功初始化。
+
+17:20 在第 23 轮采样时，较早席位死亡触发大猫发现，导致较晚席位的旧动作失效。
+原始失败现场已归档；修复后于 17:42 从第 22 轮完整检查点续训，保留 Adam 和学习率进度，
+复用同一 W&B run。复现、回归与恢复说明见
+[批量动作失效修复](../../20261031-infra/20261031-batch-action-deferral/README.md)。
 
 | 项目 | 设置 |
 | --- | --- |
