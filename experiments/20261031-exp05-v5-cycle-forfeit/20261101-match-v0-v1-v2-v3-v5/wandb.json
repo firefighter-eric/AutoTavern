@@ -1,0 +1,12 @@
+{
+  "backend": "wandb",
+  "kind": "frozen-policy-balanced-lobby-match",
+  "mode": "online",
+  "entity": "eric_eric_",
+  "project": "AutoTavern",
+  "run_id": "tczckupv",
+  "url": "https://forge.coreweave.com/wandb/eric_eric_/AutoTavern/runs/tczckupv",
+  "x_axis": "evaluated_lobbies",
+  "weave_project": "eric_eric_/AutoTavern",
+  "weave_initialized": true
+}

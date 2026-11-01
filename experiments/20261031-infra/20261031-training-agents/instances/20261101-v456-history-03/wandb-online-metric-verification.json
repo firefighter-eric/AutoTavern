@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-11-01T00:45:00.810585+08:00",
+  "run_id": "szx078op",
+  "url": "https://forge.coreweave.com/wandb/eric_eric_/AutoTavern/runs/szx078op",
+  "keys": [
+    "optimizer_step",
+    "train/first_rate",
+    "train/top4_rate",
+    "train/mean_placement",
+    "train/cycle_returns",
+    "train/cycle_return_fraction",
+    "train/max_consecutive_cycle_returns",
+    "train/cycle_penalty"
+  ],
+  "online_train_rows": [
+    {
+      "train/cycle_penalty": -1.3243697478991598,
+      "_step": 17,
+      "train/cycle_returns": 132.43697478991598,
+      "train/cycle_return_fraction": 0.18307999696861477,
+      "train/max_consecutive_cycle_returns": 33.65546218487395,
+      "optimizer_step": 16,
+      "train/first_rate": 0.13445378151260504,
+      "train/top4_rate": 0.5966386554621849,
+      "train/mean_placement": 4.050420168067227
+    },
+    {
+      "_step": 34,
+      "train/top4_rate": 0.6339869281045751,
+      "train/mean_placement": 3.843137254901961,
+      "train/cycle_returns": 138.84967320261438,
+      "train/max_consecutive_cycle_returns": 36.11764705882353,
+      "optimizer_step": 32,
+      "train/first_rate": 0.11764705882352941,
+      "train/cycle_return_fraction": 0.18720198934547916,
+      "train/cycle_penalty": -1.388496732026144
+    }
+  ],
+  "verified": true
+}

@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-11-01T08:44:41.595972+08:00",
+  "run_id": "p3tfjnyd",
+  "keys": [
+    "optimizer_step",
+    "train/first_rate",
+    "train/top4_rate",
+    "train/mean_placement",
+    "train/cycle_returns",
+    "train/cycle_return_fraction",
+    "train/max_consecutive_cycle_returns",
+    "train/cycle_penalty"
+  ],
+  "actual_pool": "2V5+2V4+2V3+1script",
+  "online_ppo_rows": 73,
+  "first_row": {
+    "train/top4_rate": 0.504950495049505,
+    "train/mean_placement": 4.524752475247524,
+    "train/cycle_penalty": -0.21603960396039606,
+    "train/first_rate": 0.1188118811881188,
+    "train/cycle_returns": 21.603960396039604,
+    "train/cycle_return_fraction": 0.04958944488154242,
+    "train/max_consecutive_cycle_returns": 4.465346534653466,
+    "_step": 17,
+    "optimizer_step": 16
+  },
+  "latest_row": {
+    "_step": 1241,
+    "optimizer_step": 1168,
+    "train/top4_rate": 0.5867158671586716,
+    "train/mean_placement": 3.974169741697417,
+    "train/cycle_return_fraction": 0.04296114124136298,
+    "train/cycle_penalty": -0.20985239852398532,
+    "train/first_rate": 0.16974169741697417,
+    "train/cycle_returns": 20.985239852398525,
+    "train/max_consecutive_cycle_returns": 3.940959409594096
+  },
+  "finite_and_penalty_verified": true
+}
